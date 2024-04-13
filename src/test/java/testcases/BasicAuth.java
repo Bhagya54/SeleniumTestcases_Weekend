@@ -13,11 +13,8 @@ public class BasicAuth {
 		driver.manage().window().maximize();
 		
 		((HasAuthentication) driver).register(UsernameAndPassword.of("admin", "admin"));
-		driver.get("https://@the-internet.herokuapp.com/basic_auth");
+		driver.get("https://the-internet.herokuapp.com/basic_auth");
 		
-		
-
-
 	}
 
 }
