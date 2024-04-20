@@ -1,8 +1,8 @@
-INFO    2024-04-14 11:21:50,859 [main] testcases.ReadPropertyFile  - Config file has been loaded
-INFO    2024-04-14 11:21:50,863 [main] testcases.ReadPropertyFile  - OR file has been loaded
-INFO    2024-04-14 11:21:55,115 [main] testcases.ReadPropertyFile  - Chrome browser launched
-INFO    2024-04-14 11:21:55,294 [main] testcases.ReadPropertyFile  - Maximized the browser window
-INFO    2024-04-14 11:21:56,158 [main] testcases.ReadPropertyFile  - Navigate to url: https://facebook.com
-INFO    2024-04-14 11:21:57,292 [main] testcases.ReadPropertyFile  - Typed on keyword: username_ID and entered value: svdsadysa
-INFO    2024-04-14 11:21:57,470 [main] testcases.ReadPropertyFile  - Typed on keyword: pswd_NAME and entered value: svdsadysa
-INFO    2024-04-14 11:21:57,593 [main] testcases.ReadPropertyFile  - Clicked on keyword: loginbtn_XPATH
+INFO    2024-04-14 16:21:14,525 [main] testcases.ReadPropertyFile  - Config file has been loaded
+INFO    2024-04-14 16:21:14,527 [main] testcases.ReadPropertyFile  - OR file has been loaded
+INFO    2024-04-14 16:21:17,358 [main] testcases.ReadPropertyFile  - Chrome browser launched
+INFO    2024-04-14 16:21:17,481 [main] testcases.ReadPropertyFile  - Maximized the browser window
+INFO    2024-04-14 16:21:18,792 [main] testcases.ReadPropertyFile  - Navigate to url: https://facebook.com
+INFO    2024-04-14 16:21:18,868 [main] testcases.ReadPropertyFile  - Typed on keyword: username_ID and entered value: svdsadysa
+INFO    2024-04-14 16:21:18,945 [main] testcases.ReadPropertyFile  - Typed on keyword: pswd_NAME and entered value: svdsadysa
+INFO    2024-04-14 16:21:19,008 [main] testcases.ReadPropertyFile  - Clicked on keyword: loginbtn_XPATH
