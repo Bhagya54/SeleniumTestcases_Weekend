@@ -1,17 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="1" failed="4" skipped="1">
+<testng-results ignored="0" total="7" passed="2" failed="4" skipped="1">
   <reporter-output>
+    <line>
+      <![CDATA[Test has been started: userReg]]>
+    </line>
+    <line>
+      <![CDATA[Test has been passed: userReg]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started: login]]>
+    </line>
+    <line>
+      <![CDATA[Login Test]]>
+    </line>
+    <line>
+      <![CDATA[Test has been passed: login]]>
+    </line>
+    <line>
+      <![CDATA[Test has been finished: Testcase1]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started: assertTrueCond]]>
+    </line>
+    <line>
+      <![CDATA[Verifying titles]]>
+    </line>
+    <line>
+      <![CDATA[Test has been failed: assertTrueCond]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started: intentionallyFail]]>
+    </line>
+    <line>
+      <![CDATA[Intentionally Failing Test]]>
+    </line>
+    <line>
+      <![CDATA[Test has been failed: intentionallyFail]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started: intentionallySkip]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started: softAssertCond]]>
+    </line>
+    <line>
+      <![CDATA[Test has been failed: softAssertCond]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test has been started: verifyTitle]]>
+    </line>
+    <line>
+      <![CDATA[Test has been failed: verifyTitle]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-04-20T12:17:56 IST" name="Default suite" finished-at="2024-04-20T12:17:56 IST" duration-ms="315">
+  <suite started-at="2024-04-21T12:02:19 IST" name="Suite" finished-at="2024-04-21T12:02:19 IST" duration-ms="511">
     <groups>
+      <group name="regression">
+        <method signature="Testcase1.userReg()[pri:16, instance:testngTestcases.Testcase1@376a0d86]" name="userReg" class="testngTestcases.Testcase1"/>
+        <method signature="Testcase2.verifyTitle()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" name="verifyTitle" class="testngTestcases.Testcase2"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Testcase2.assertTrueCond()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" name="assertTrueCond" class="testngTestcases.Testcase2"/>
+        <method signature="Testcase2.verifyTitle()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" name="verifyTitle" class="testngTestcases.Testcase2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Testcase1.userReg()[pri:16, instance:testngTestcases.Testcase1@376a0d86]" name="userReg" class="testngTestcases.Testcase1"/>
+        <method signature="Testcase1.login()[pri:47, instance:testngTestcases.Testcase1@376a0d86]" name="login" class="testngTestcases.Testcase1"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-20T12:17:56 IST" name="Default test" finished-at="2024-04-20T12:17:56 IST" duration-ms="315">
-      <class name="testngTestcases.Testcase2">
-        <test-method signature="assertFalseCond()[pri:0, instance:testngTestcases.Testcase2@795509d9]" started-at="2024-04-20T12:17:56 IST" name="assertFalseCond" finished-at="2024-04-20T12:17:56 IST" duration-ms="38" status="PASS">
+    <test started-at="2024-04-21T12:02:19 IST" name="Testcase1" finished-at="2024-04-21T12:02:19 IST" duration-ms="256">
+      <class name="testngTestcases.Testcase1">
+        <test-method is-config="true" signature="openDBConnection()[pri:0, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="openDBConnection" finished-at="2024-04-21T12:02:19 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assertFalseCond -->
-        <test-method signature="assertTrueCond()[pri:0, instance:testngTestcases.Testcase2@795509d9]" started-at="2024-04-20T12:17:56 IST" name="assertTrueCond" finished-at="2024-04-20T12:17:56 IST" duration-ms="35" status="FAIL">
+        </test-method> <!-- openDBConnection -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="setUp" finished-at="2024-04-21T12:02:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userReg()[pri:16, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="userReg" finished-at="2024-04-21T12:02:19 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been started: userReg]]>
+            </line>
+            <line>
+              <![CDATA[Test has been passed: userReg]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userReg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="tearDown" finished-at="2024-04-21T12:02:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="setUp" finished-at="2024-04-21T12:02:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:47, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="login" finished-at="2024-04-21T12:02:19 IST" depends-on-methods="testngTestcases.Testcase1.userReg" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been started: login]]>
+            </line>
+            <line>
+              <![CDATA[Login Test]]>
+            </line>
+            <line>
+              <![CDATA[Test has been passed: login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="tearDown" finished-at="2024-04-21T12:02:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="CloseDBConnection()[pri:0, instance:testngTestcases.Testcase1@376a0d86]" started-at="2024-04-21T12:02:19 IST" name="CloseDBConnection" finished-at="2024-04-21T12:02:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDBConnection -->
+      </class> <!-- testngTestcases.Testcase1 -->
+    </test> <!-- Testcase1 -->
+    <test started-at="2024-04-21T12:02:19 IST" name="Testcase2" finished-at="2024-04-21T12:02:19 IST" duration-ms="148">
+      <class name="testngTestcases.Testcase2">
+        <test-method signature="assertTrueCond()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" started-at="2024-04-21T12:02:19 IST" name="assertTrueCond" finished-at="2024-04-21T12:02:19 IST" duration-ms="36" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Title is not matching expected [google] but found [gmail]]]>
@@ -23,7 +157,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
-at testngTestcases.Testcase2.assertTrueCond(Testcase2.java:27)
+at testngTestcases.Testcase2.assertTrueCond(Testcase2.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,9 +190,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Test has been started: assertTrueCond]]>
+            </line>
+            <line>
+              <![CDATA[Verifying titles]]>
+            </line>
+            <line>
+              <![CDATA[Test has been failed: assertTrueCond]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- assertTrueCond -->
-        <test-method signature="intentionallyFail()[pri:0, instance:testngTestcases.Testcase2@795509d9]" started-at="2024-04-20T12:17:56 IST" name="intentionallyFail" finished-at="2024-04-20T12:17:56 IST" duration-ms="3" status="FAIL">
+        <test-method signature="intentionallyFail()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" started-at="2024-04-21T12:02:19 IST" name="intentionallyFail" finished-at="2024-04-21T12:02:19 IST" duration-ms="10" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Intentionally failed]]>
@@ -66,7 +215,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Intentionally failed
 at org.testng.Assert.fail(Assert.java:111)
-at testngTestcases.Testcase2.intentionallyFail(Testcase2.java:43)
+at testngTestcases.Testcase2.intentionallyFail(Testcase2.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -99,16 +248,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Test has been started: intentionallyFail]]>
+            </line>
+            <line>
+              <![CDATA[Intentionally Failing Test]]>
+            </line>
+            <line>
+              <![CDATA[Test has been failed: intentionallyFail]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- intentionallyFail -->
-        <test-method signature="intentionallySkip()[pri:0, instance:testngTestcases.Testcase2@795509d9]" started-at="2024-04-20T12:17:56 IST" name="intentionallySkip" finished-at="2024-04-20T12:17:56 IST" duration-ms="2" status="SKIP">
+        <test-method signature="intentionallySkip()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" started-at="2024-04-21T12:02:19 IST" name="intentionallySkip" finished-at="2024-04-21T12:02:19 IST" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Intentionally Skip a testcase]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Intentionally Skip a testcase
-at testngTestcases.Testcase2.intentionallySkip(Testcase2.java:48)
+at testngTestcases.Testcase2.intentionallySkip(Testcase2.java:53)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,57 +305,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
+            <line>
+              <![CDATA[Test has been started: intentionallySkip]]>
+            </line>
           </reporter-output>
         </test-method> <!-- intentionallySkip -->
-        <test-method signature="softAssertCond()[pri:0, instance:testngTestcases.Testcase2@795509d9]" started-at="2024-04-20T12:17:56 IST" name="softAssertCond" finished-at="2024-04-20T12:17:56 IST" duration-ms="59" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Title is not matching expected [google] but found [gmail],
-a and b values are not same expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Title is not matching expected [google] but found [gmail],
-a and b values are not same expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testngTestcases.Testcase2.softAssertCond(Testcase2.java:62)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- softAssertCond -->
-        <test-method signature="verifyTitle()[pri:0, instance:testngTestcases.Testcase2@795509d9]" started-at="2024-04-20T12:17:56 IST" name="verifyTitle" finished-at="2024-04-20T12:17:56 IST" duration-ms="3" status="FAIL">
+        <test-method signature="softAssertCond()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" started-at="2024-04-21T12:02:19 IST" name="softAssertCond" finished-at="2024-04-21T12:02:19 IST" duration-ms="11" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Title is not matching expected [google] but found [gmail]]]>
@@ -203,7 +322,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
-at testngTestcases.Testcase2.verifyTitle(Testcase2.java:15)
+at testngTestcases.Testcase2.softAssertCond(Testcase2.java:64)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -236,9 +355,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[Test has been started: softAssertCond]]>
+            </line>
+            <line>
+              <![CDATA[Test has been failed: softAssertCond]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- softAssertCond -->
+        <test-method signature="verifyTitle()[pri:0, instance:testngTestcases.Testcase2@7bf3a5d8]" started-at="2024-04-21T12:02:19 IST" name="verifyTitle" finished-at="2024-04-21T12:02:19 IST" duration-ms="37" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[gmail expected:<google> but was:<Title is not matching>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: gmail expected:<google> but was:<Title is not matching>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at testngTestcases.Testcase2.verifyTitle(Testcase2.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test has been started: verifyTitle]]>
+            </line>
+            <line>
+              <![CDATA[Test has been failed: verifyTitle]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
       </class> <!-- testngTestcases.Testcase2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Testcase2 -->
+  </suite> <!-- Suite -->
 </testng-results>

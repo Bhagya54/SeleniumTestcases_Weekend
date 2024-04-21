@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Testcase2</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Testcase2</h1>
+<p>
+  Test duration: 0.097s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testngTestcases.Testcase2</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  assertTrueCond
+      </td>
+  <td class="duration">
+    0.036s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test has been started: assertTrueCond
+                                Verifying titles
+                                Test has been failed: assertTrueCond
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Title is not matching expected [google] but found [gmail]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:111)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:150)<br />
+              org.testng.Assert.assertEquals(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:656)<br />
+              testngTestcases.Testcase2.assertTrueCond(Testcase2.java:30)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  intentionallyFail
+      </td>
+  <td class="duration">
+    0.010s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test has been started: intentionallyFail
+                                Intentionally Failing Test
+                                Test has been failed: intentionallyFail
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Intentionally failed</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:111)<br />
+              testngTestcases.Testcase2.intentionallyFail(Testcase2.java:48)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  softAssertCond
+      </td>
+  <td class="duration">
+    0.011s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test has been started: softAssertCond
+                                Test has been failed: softAssertCond
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Title is not matching expected [google] but found [gmail]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.testng.Assert.fail(Assert.java:111)<br />
+              org.testng.Assert.failNotEquals(Assert.java:1578)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:150)<br />
+              org.testng.Assert.assertEquals(Assert.java:132)<br />
+              org.testng.Assert.assertEquals(Assert.java:656)<br />
+              testngTestcases.Testcase2.softAssertCond(Testcase2.java:64)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTitle
+      </td>
+  <td class="duration">
+    0.037s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Test has been started: verifyTitle
+                                Test has been failed: verifyTitle
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a>
+                                <a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: gmail expected:&lt;google&gt; but was:&lt;Title is not matching&gt;</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)<br />
+              testngTestcases.Testcase2.verifyTitle(Testcase2.java:18)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:566)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1541)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:739)<br />
+              org.testng.TestRunner.run(TestRunner.java:614)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1112)<br />
+              org.testng.TestNG.run(TestNG.java:1079)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testngTestcases.Testcase2</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  intentionallySkip
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Intentionally Skip a testcase</span>
+          
+    
+            <div class="testOutput">
+                        Test has been started: intentionallySkip
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+
+  
+</body>
+</html>
