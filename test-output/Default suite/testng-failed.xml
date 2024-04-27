@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngTestcases.Testcase2">
+      <class name="extentreports.ExtentReportsDemo">
         <methods>
-          <include name="verifyTitle"/>
-          <include name="intentionallySkip"/>
-          <include name="softAssertCond"/>
-          <include name="intentionallyFail"/>
-          <include name="assertTrueCond"/>
+          <include name="tearDown"/>
+          <include name="doUserReg"/>
+          <include name="getStatus"/>
+          <include name="setUp"/>
+          <include name="doSkip"/>
         </methods>
-      </class> <!-- testngTestcases.Testcase2 -->
+      </class> <!-- extentreports.ExtentReportsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

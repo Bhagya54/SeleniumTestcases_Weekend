@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,17 +50,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\reporting.xml</span>
+                    <span>C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\extentreports.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>3 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 4 failed,  1 skipped,  2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,22 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase2" class="method navigator-link" hash-for-method="assertTrueCond">assertTrueCond</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase2" class="method navigator-link" hash-for-method="intentionallyFail">intentionallyFail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase2" class="method navigator-link" hash-for-method="softAssertCond">softAssertCond</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase2" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentreports.ExtentTestCases" class="method navigator-link" hash-for-method="doUserReg">doUserReg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -132,7 +117,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase2" class="method navigator-link" hash-for-method="intentionallySkip">intentionallySkip</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentreports.ExtentTestCases" class="method navigator-link" hash-for-method="doSkip">doSkip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -146,12 +131,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase1" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.Testcase1" class="method navigator-link" hash-for-method="userReg">userReg</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentreports.ExtentTestCases" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -169,52 +149,16 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testngTestcases.Testcase2</span>
+              <span class="class-name">extentreports.ExtentTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="assertTrueCond">
-                  </a> <!-- assertTrueCond -->
-                  <span class="method-name">assertTrueCond</span>
-                  <div class="stack-trace">java.lang.AssertionError: Title is not matching expected [google] but found [gmail]
-	at testngTestcases.Testcase2.assertTrueCond(Testcase2.java:30)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="intentionallyFail">
-                  </a> <!-- intentionallyFail -->
-                  <span class="method-name">intentionallyFail</span>
-                  <div class="stack-trace">java.lang.AssertionError: Intentionally failed
-	at testngTestcases.Testcase2.intentionallyFail(Testcase2.java:48)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="softAssertCond">
-                  </a> <!-- softAssertCond -->
-                  <span class="method-name">softAssertCond</span>
-                  <div class="stack-trace">java.lang.AssertionError: Title is not matching expected [google] but found [gmail]
-	at testngTestcases.Testcase2.softAssertCond(Testcase2.java:64)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTitle">
-                  </a> <!-- verifyTitle -->
-                  <span class="method-name">verifyTitle</span>
-                  <div class="stack-trace">java.lang.AssertionError: gmail expected:&lt;google&gt; but was:&lt;Title is not matching&gt;
-	at testngTestcases.Testcase2.verifyTitle(Testcase2.java:18)
+                  <a name="doUserReg">
+                  </a> <!-- doUserReg -->
+                  <span class="method-name">doUserReg</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentionally failing
+	at extentreports.ExtentTestCases.doUserReg(ExtentTestCases.java:37)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -225,16 +169,16 @@
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">testngTestcases.Testcase2</span>
+              <span class="class-name">extentreports.ExtentTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="intentionallySkip">
-                  </a> <!-- intentionallySkip -->
-                  <span class="method-name">intentionallySkip</span>
-                  <div class="stack-trace">org.testng.SkipException: Intentionally Skip a testcase
-	at testngTestcases.Testcase2.intentionallySkip(Testcase2.java:53)
+                  <a name="doSkip">
+                  </a> <!-- doSkip -->
+                  <span class="method-name">doSkip</span>
+                  <div class="stack-trace">org.testng.SkipException: Intentionally skipping
+	at extentreports.ExtentTestCases.doSkip(ExtentTestCases.java:44)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 27 stack frames
 </div> <!-- stack-trace -->
@@ -245,21 +189,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testngTestcases.Testcase1</span>
+              <span class="class-name">extentreports.ExtentTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="userReg">
-                  </a> <!-- userReg -->
-                  <span class="method-name">userReg</span>
+                  <a name="doLogin">
+                  </a> <!-- doLogin -->
+                  <span class="method-name">doLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -267,7 +204,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\reporting.xml</span>
+            <span class="header-content">C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\extentreports.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -275,19 +212,14 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;testngTestcases.CustomListener&quot;/&gt;
+    &lt;listener class-name=&quot;extentlisteners.ExtentListeners&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Testcase1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Extent Report Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testngTestcases.Testcase1&quot;/&gt;
+      &lt;class name=&quot;extentreports.ExtentTestCases&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testcase1 --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Testcase2&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testngTestcases.Testcase2&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testcase2 --&gt;
+  &lt;/test&gt; &lt;!-- Extent Report Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -299,10 +231,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Testcase1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Testcase2 (1 class)</span>
+                <span class="test-name">Extent Report Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -312,42 +241,6 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">regression</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">userReg</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">verifyTitle</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">sanity</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">login</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">userReg</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">smoke</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">assertTrueCond</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">verifyTitle</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -364,40 +257,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTitle')
-data.setCell(0, 2, 'testngTestcases.Testcase2')
-data.setCell(0, 3, 37);
+data.setCell(0, 1, 'doLogin')
+data.setCell(0, 2, 'extentreports.ExtentTestCases')
+data.setCell(0, 3, 49);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'assertTrueCond')
-data.setCell(1, 2, 'testngTestcases.Testcase2')
-data.setCell(1, 3, 36);
+data.setCell(1, 1, 'doUserReg')
+data.setCell(1, 2, 'extentreports.ExtentTestCases')
+data.setCell(1, 3, 23);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'userReg')
-data.setCell(2, 2, 'testngTestcases.Testcase1')
-data.setCell(2, 3, 14);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'softAssertCond')
-data.setCell(3, 2, 'testngTestcases.Testcase2')
-data.setCell(3, 3, 11);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'intentionallyFail')
-data.setCell(4, 2, 'testngTestcases.Testcase2')
-data.setCell(4, 3, 10);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login')
-data.setCell(5, 2, 'testngTestcases.Testcase1')
-data.setCell(5, 3, 7);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'intentionallySkip')
-data.setCell(6, 2, 'testngTestcases.Testcase2')
-data.setCell(6, 3, 3);
+data.setCell(2, 1, 'doSkip')
+data.setCell(2, 2, 'extentreports.ExtentTestCases')
+data.setCell(2, 3, 6);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 118 ms</span>
+              <span class="suite-total-time">Total running time: 78 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -408,79 +285,13 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">userReg</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: userReg</span>
-                <span class="reporter-method-output">Test has been passed: userReg</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: login</span>
-                <span class="reporter-method-output">Login Test</span>
-                <span class="reporter-method-output">Test has been passed: login</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">intentionallyFail</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: intentionallyFail</span>
-                <span class="reporter-method-output">Intentionally Failing Test</span>
-                <span class="reporter-method-output">Test has been failed: intentionallyFail</span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a></span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">assertTrueCond</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: assertTrueCond</span>
-                <span class="reporter-method-output">Verifying titles</span>
-                <span class="reporter-method-output">Test has been failed: assertTrueCond</span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a></span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyTitle</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: verifyTitle</span>
-                <span class="reporter-method-output">Test has been failed: verifyTitle</span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a></span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">softAssertCond</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: softAssertCond</span>
-                <span class="reporter-method-output">Test has been failed: softAssertCond</span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank">screenshot</a></span>
-                <span class="reporter-method-output"><a href="C:\Users\Bhagya_Kudupudi\Desktop\download.png" target="_blank"><img src="C:\Users\Bhagya_Kudupudi\Desktop\download.png" height=200 width=200</a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">intentionallySkip</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Test has been started: intentionallySkip</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">testngTestcases.Testcase2</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">assertFalseCond</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -489,69 +300,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testngTestcases.Testcase1</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">openDBConnection</span>
+              <div class="chronological-class-name">extentreports.ExtentTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">97 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">userReg</span>
-                <span class="method-start">100 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">126 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">151 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">156 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">169 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">CloseDBConnection</span>
-                <span class="method-start">174 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testngTestcases.Testcase2</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">assertTrueCond</span>
-                <span class="method-start">286 ms</span>
+                <span class="method-name">doSkip</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">intentionallyFail</span>
-                <span class="method-start">339 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">intentionallySkip</span>
-                <span class="method-start">356 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">softAssertCond</span>
-                <span class="method-start">367 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyTitle</span>
-                <span class="method-start">388 ms</span>
+                <span class="method-name">doUserReg</span>
+                <span class="method-start">82 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
