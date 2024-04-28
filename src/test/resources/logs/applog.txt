@@ -1,8 +1,16 @@
-INFO    2024-04-14 16:21:14,525 [main] testcases.ReadPropertyFile  - Config file has been loaded
-INFO    2024-04-14 16:21:14,527 [main] testcases.ReadPropertyFile  - OR file has been loaded
-INFO    2024-04-14 16:21:17,358 [main] testcases.ReadPropertyFile  - Chrome browser launched
-INFO    2024-04-14 16:21:17,481 [main] testcases.ReadPropertyFile  - Maximized the browser window
-INFO    2024-04-14 16:21:18,792 [main] testcases.ReadPropertyFile  - Navigate to url: https://facebook.com
-INFO    2024-04-14 16:21:18,868 [main] testcases.ReadPropertyFile  - Typed on keyword: username_ID and entered value: svdsadysa
-INFO    2024-04-14 16:21:18,945 [main] testcases.ReadPropertyFile  - Typed on keyword: pswd_NAME and entered value: svdsadysa
-INFO    2024-04-14 16:21:19,008 [main] testcases.ReadPropertyFile  - Clicked on keyword: loginbtn_XPATH
+INFO    2024-04-28 13:52:40,324 [main] utility.TestBase  - OR1 file has loaded
+INFO    2024-04-28 13:52:44,196 [main] utility.TestBase  - Chrome browser has launched
+INFO    2024-04-28 13:52:44,282 [main] utility.TestBase  - browser is maximized
+INFO    2024-04-28 13:52:45,916 [main] utility.TestBase  - Typed:username_IDandEntered:testing1
+INFO    2024-04-28 13:52:46,065 [main] utility.TestBase  - Typed:pswd_NAMEandEntered:password1
+INFO    2024-04-28 13:52:46,218 [main] utility.TestBase  - Clicked:loginbtn_XPATH
+INFO    2024-04-28 13:52:48,417 [main] utility.TestBase  - Chrome browser has launched
+INFO    2024-04-28 13:52:48,518 [main] utility.TestBase  - browser is maximized
+INFO    2024-04-28 13:52:49,937 [main] utility.TestBase  - Typed:username_IDandEntered:testing2
+INFO    2024-04-28 13:52:50,043 [main] utility.TestBase  - Typed:pswd_NAMEandEntered:password2
+INFO    2024-04-28 13:52:50,163 [main] utility.TestBase  - Clicked:loginbtn_XPATH
+INFO    2024-04-28 13:52:52,332 [main] utility.TestBase  - Chrome browser has launched
+INFO    2024-04-28 13:52:52,482 [main] utility.TestBase  - browser is maximized
+INFO    2024-04-28 13:52:54,044 [main] utility.TestBase  - Typed:username_IDandEntered:testing3
+INFO    2024-04-28 13:52:54,213 [main] utility.TestBase  - Typed:pswd_NAMEandEntered:password3
+INFO    2024-04-28 13:52:54,365 [main] utility.TestBase  - Clicked:loginbtn_XPATH
