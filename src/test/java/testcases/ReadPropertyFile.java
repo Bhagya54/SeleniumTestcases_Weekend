@@ -13,6 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import extentlisteners.ExtentListeners;
+
 public class ReadPropertyFile {
 
 	static WebDriver driver;
@@ -78,6 +80,7 @@ public class ReadPropertyFile {
 			driver.findElement(By.cssSelector(or.getProperty(keyword))).sendKeys(value);
 		}
 		log.info("Typed on keyword: " + keyword + " and entered value: " +value);
+		ExtentListeners.test.info("Typed on keyword: " + keyword + " and entered value: " +value);
 	}
 
 	public static void click(String keyword) {
@@ -92,6 +95,7 @@ public class ReadPropertyFile {
 			driver.findElement(By.cssSelector(or.getProperty(keyword))).click();
 		}
 		log.info("Clicked on keyword: " + keyword);
+		ExtentListeners.test.info("Clicked on keyword: " + keyword);
 	}
 
 }
