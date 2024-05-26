@@ -1,16 +1,1 @@
-INFO    2024-04-28 13:52:40,324 [main] utility.TestBase  - OR1 file has loaded
-INFO    2024-04-28 13:52:44,196 [main] utility.TestBase  - Chrome browser has launched
-INFO    2024-04-28 13:52:44,282 [main] utility.TestBase  - browser is maximized
-INFO    2024-04-28 13:52:45,916 [main] utility.TestBase  - Typed:username_IDandEntered:testing1
-INFO    2024-04-28 13:52:46,065 [main] utility.TestBase  - Typed:pswd_NAMEandEntered:password1
-INFO    2024-04-28 13:52:46,218 [main] utility.TestBase  - Clicked:loginbtn_XPATH
-INFO    2024-04-28 13:52:48,417 [main] utility.TestBase  - Chrome browser has launched
-INFO    2024-04-28 13:52:48,518 [main] utility.TestBase  - browser is maximized
-INFO    2024-04-28 13:52:49,937 [main] utility.TestBase  - Typed:username_IDandEntered:testing2
-INFO    2024-04-28 13:52:50,043 [main] utility.TestBase  - Typed:pswd_NAMEandEntered:password2
-INFO    2024-04-28 13:52:50,163 [main] utility.TestBase  - Clicked:loginbtn_XPATH
-INFO    2024-04-28 13:52:52,332 [main] utility.TestBase  - Chrome browser has launched
-INFO    2024-04-28 13:52:52,482 [main] utility.TestBase  - browser is maximized
-INFO    2024-04-28 13:52:54,044 [main] utility.TestBase  - Typed:username_IDandEntered:testing3
-INFO    2024-04-28 13:52:54,213 [main] utility.TestBase  - Typed:pswd_NAMEandEntered:password3
-INFO    2024-04-28 13:52:54,365 [main] utility.TestBase  - Clicked:loginbtn_XPATH
+INFO    2024-05-25 10:41:44,213 [main] utility.TestBase  - OR1 file has loaded

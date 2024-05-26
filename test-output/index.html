@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\DataParameterization.xml</span>
+                    <span>C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\seleniumgrid.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.TestParameterization" class="method navigator-link" hash-for-method="doLogin(testing1, password1)">doLogin(testing1, password1)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="seleniumgrid.SeleniumGrid" class="method navigator-link" hash-for-method="lauchBrowser(chrome, https://google.com)">lauchBrowser(chrome, https://google.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.TestParameterization" class="method navigator-link" hash-for-method="doLogin(testing3, password3)">doLogin(testing3, password3)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testngTestcases.TestParameterization" class="method navigator-link" hash-for-method="doLogin(testing2, password2)">doLogin(testing2, password2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="seleniumgrid.SeleniumGrid" class="method navigator-link" hash-for-method="lauchBrowser(firefox, https://google.com)">lauchBrowser(firefox, https://google.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,31 +126,23 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testngTestcases.TestParameterization</span>
+              <span class="class-name">seleniumgrid.SeleniumGrid</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin(testing1, password1)">
-                  </a> <!-- doLogin(testing1, password1) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(testing1,password1)</span>
+                  <a name="lauchBrowser(chrome, https://google.com)">
+                  </a> <!-- lauchBrowser(chrome, https://google.com) -->
+                  <span class="method-name">lauchBrowser</span>
+                  <span class="parameters">(chrome,https://google.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin(testing3, password3)">
-                  </a> <!-- doLogin(testing3, password3) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(testing3,password3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doLogin(testing2, password2)">
-                  </a> <!-- doLogin(testing2, password2) -->
-                  <span class="method-name">doLogin</span>
-                  <span class="parameters">(testing2,password2)</span>
+                  <a name="lauchBrowser(firefox, https://google.com)">
+                  </a> <!-- lauchBrowser(firefox, https://google.com) -->
+                  <span class="method-name">lauchBrowser</span>
+                  <span class="parameters">(firefox,https://google.com)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,7 +150,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\DataParameterization.xml</span>
+            <span class="header-content">C:\Users\Bhagya_Kudupudi\eclipse-workspace\SeleniumTestcases_Weekend\seleniumgrid.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -171,12 +158,19 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
-    &lt;parameter name=&quot;siteurl&quot; value=&quot;https://facebook.com&quot;/&gt;
+    &lt;parameter name=&quot;siteurl&quot; value=&quot;https://google.com&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testngTestcases.TestParameterization&quot;/&gt;
+      &lt;class name=&quot;seleniumgrid.SeleniumGrid&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Firefox Test&quot;&gt;
+    &lt;parameter name=&quot;siteurl&quot; value=&quot;https://google.com&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumgrid.SeleniumGrid&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,6 +183,9 @@
             <ul>
               <li>
                 <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,24 +211,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doLogin')
-data.setCell(0, 2, 'testngTestcases.TestParameterization')
-data.setCell(0, 3, 434);
+data.setCell(0, 1, 'lauchBrowser')
+data.setCell(0, 2, 'seleniumgrid.SeleniumGrid')
+data.setCell(0, 3, 13201);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'doLogin')
-data.setCell(1, 2, 'testngTestcases.TestParameterization')
-data.setCell(1, 3, 425);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'doLogin')
-data.setCell(2, 2, 'testngTestcases.TestParameterization')
-data.setCell(2, 3, 342);
+data.setCell(1, 1, 'lauchBrowser')
+data.setCell(1, 2, 'seleniumgrid.SeleniumGrid')
+data.setCell(1, 3, 7718);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -257,34 +250,14 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testngTestcases.TestParameterization</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">setUp</span>
+              <div class="chronological-class-name">seleniumgrid.SeleniumGrid</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">lauchBrowser(chrome, https://google.com)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, https://facebook.com)</span>
-                <span class="method-start">983 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">doLogin(testing1, password1)</span>
-                <span class="method-start">5578 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, https://facebook.com)</span>
-                <span class="method-start">6011 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">doLogin(testing2, password2)</span>
-                <span class="method-start">9606 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">launchBrowser(chrome, https://facebook.com)</span>
-                <span class="method-start">9953 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">doLogin(testing3, password3)</span>
-                <span class="method-start">13717 ms</span>
+                <span class="method-name">lauchBrowser(firefox, https://google.com)</span>
+                <span class="method-start">7970 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

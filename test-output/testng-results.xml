@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-28T13:52:40 IST" name="Suite" finished-at="2024-04-28T13:52:54 IST" duration-ms="14039">
+  <suite started-at="2024-05-26T10:33:01 IST" name="Suite" finished-at="2024-05-26T10:33:22 IST" duration-ms="21292">
     <groups>
     </groups>
-    <test started-at="2024-04-28T13:52:40 IST" name="Chrome Test" finished-at="2024-04-28T13:52:54 IST" duration-ms="14039">
-      <class name="testngTestcases.TestParameterization">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:40 IST" name="setUp" finished-at="2024-04-28T13:52:40 IST" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:41 IST" name="launchBrowser" finished-at="2024-04-28T13:52:45 IST" duration-ms="4594" status="PASS">
+    <test started-at="2024-05-26T10:33:01 IST" name="Chrome Test" finished-at="2024-05-26T10:33:09 IST" duration-ms="7865">
+      <class name="seleniumgrid.SeleniumGrid">
+        <test-method signature="lauchBrowser(java.lang.String,java.lang.String)[pri:0, instance:seleniumgrid.SeleniumGrid@4c163e3]" started-at="2024-05-26T10:33:01 IST" name="lauchBrowser" finished-at="2024-05-26T10:33:09 IST" duration-ms="7718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,94 +16,34 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://facebook.com]]>
+                <![CDATA[https://google.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:45 IST" name="doLogin" data-provider="dp" finished-at="2024-04-28T13:52:46 IST" duration-ms="425" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testing1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:46 IST" name="launchBrowser" finished-at="2024-04-28T13:52:49 IST" duration-ms="3595" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:49 IST" name="doLogin" data-provider="dp" finished-at="2024-04-28T13:52:50 IST" duration-ms="342" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testing2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:50 IST" name="launchBrowser" finished-at="2024-04-28T13:52:53 IST" duration-ms="3764" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String)[pri:0, instance:testngTestcases.TestParameterization@2f953efd]" started-at="2024-04-28T13:52:53 IST" name="doLogin" data-provider="dp" finished-at="2024-04-28T13:52:54 IST" duration-ms="434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testing3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-      </class> <!-- testngTestcases.TestParameterization -->
+        </test-method> <!-- lauchBrowser -->
+      </class> <!-- seleniumgrid.SeleniumGrid -->
     </test> <!-- Chrome Test -->
+    <test started-at="2024-05-26T10:33:09 IST" name="Firefox Test" finished-at="2024-05-26T10:33:22 IST" duration-ms="13218">
+      <class name="seleniumgrid.SeleniumGrid">
+        <test-method signature="lauchBrowser(java.lang.String,java.lang.String)[pri:0, instance:seleniumgrid.SeleniumGrid@3aa078fd]" started-at="2024-05-26T10:33:09 IST" name="lauchBrowser" finished-at="2024-05-26T10:33:22 IST" duration-ms="13201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+      </class> <!-- seleniumgrid.SeleniumGrid -->
+    </test> <!-- Firefox Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -5,13 +5,22 @@
     <parameter name="siteurl" value="https://facebook.com"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testngTestcases.TestParameterization">
+      <class name="seleniumgrid.SeleniumGrid">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="doLogin"/>
-          <include name="setUp"/>
+          <include name="lauchBrowser" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testngTestcases.TestParameterization -->
+      </class> <!-- seleniumgrid.SeleniumGrid -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="siteurl" value="https://facebook.com"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="seleniumgrid.SeleniumGrid">
+        <methods>
+          <include name="lauchBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seleniumgrid.SeleniumGrid -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
